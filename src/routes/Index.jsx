@@ -9,6 +9,8 @@ const Index = () => {
   const [xp, setXp] = React.useState("");
 
   React.useEffect(() => {
+    document.title = "Todo Application by Valeh Ismayilov";
+
     try {
       setTodos(JSON.parse(localStorage.getItem("todos")));
     } catch (error) {}
