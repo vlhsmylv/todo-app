@@ -119,7 +119,7 @@ const Index = () => {
         </div>
         <div>
             <button id="view-on-github" onClick={() => {
-                window.open("https://github.com/")
+                window.open("https://github.com/vlhsmylv/todo-app-react.git")
             }}>
                 <i className="fa-brands fa-github"></i> View on Github
             </button>
