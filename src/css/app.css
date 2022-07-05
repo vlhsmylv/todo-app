@@ -1,0 +1,121 @@
+#app {
+  width: 500px;
+  margin: auto;
+  padding: 20px 10px 20px 10px;
+}
+
+#app > #credits {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  opacity: 0.9;
+}
+
+#app > #credits > div > #text {
+  color: gray;
+}
+
+#app > #credits > div > #developer {
+  color: #a391bd;
+}
+
+#app > #credits > div > #reset-button {
+  color: #a391bd;
+  text-decoration: underline;
+  background: none;
+  padding: 0px !important;
+  border: none;
+  margin-top: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#app > #credits > div > #view-on-github {
+  margin-top: 10px;
+  font-size: 16px;
+  background: none;
+  color: #a391bd;
+  border: 1px solid #a391bd;
+  border-radius: 6px;
+  padding: 5px !important;
+  cursor: pointer;
+}
+
+#app > #header {
+  text-align: center;
+}
+
+#app > #xp {
+  text-align: center;
+  color: #a391bd;
+}
+
+#app > #main > #control {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#app > #main > #control > input:first-child {
+  background: #eeeeee;
+  padding: 20px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border: none;
+  outline: none;
+}
+
+#app > #main > #control > input:last-child {
+  background: #a391bd;
+  padding: 20px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-right: 30px;
+  color: #ffffff;
+}
+
+#app > #main > #todos {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  height: 300px;
+  overflow: auto;
+  scrollbar-width: none;
+}
+
+#app > #main > #todos > .todo-container {
+  width: 300px;
+  margin: auto;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#app > #main > #todos > .todo-container > .control-container {
+  float: right;
+}
+
+#app > #main > #todos > .todo-container > .control-container > .remove-button {
+  margin-right: 10px;
+  text-decoration: underline;
+  background: none;
+  border: none;
+  color: #a391bd;
+  cursor: pointer;
+}
+
+#app > #main > #todos > .todo-container > .control-container > .checkbox {
+  cursor: pointer;
+}
+
+#app > #main > #statistics {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
