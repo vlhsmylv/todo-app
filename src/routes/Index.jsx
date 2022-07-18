@@ -12,6 +12,20 @@ const Index = () => {
     document.title = "Todo Application by Valeh Ismayilov";
 
     try {
+        if(localStorage.getItem("todos") === null) {
+            localStorage.setItem("todos", JSON.stringify([]));
+        }
+    } catch (error) {}
+
+      try {
+        if(localStorage.getItem("user") === null) {
+            localStorage.setItem("user", JSON.stringify({
+                "xp": 0
+            }));
+        }
+      } catch (error) {}
+
+    try {
       setTodos(JSON.parse(localStorage.getItem("todos")));
     } catch (error) {}
 
